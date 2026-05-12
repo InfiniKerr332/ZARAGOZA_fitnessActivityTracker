@@ -1,0 +1,29 @@
+# Dependencies
+/vendor/
+composer.lock
+
+# Raw InnoDB binary table files (not portable - use SQL dump instead)
+fitness_tracker_db/*.ibd
+fitness_tracker_db/*.frm
+fitness_tracker_db/*.MAD
+fitness_tracker_db/*.MAI
+
+# Environment / Config (sensitive)
+config/database.php
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# PHP cache
+*.cache
