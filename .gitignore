@@ -1,5 +1,5 @@
 # Dependencies
-/vendor/
+# /vendor/ included for easy school submission (PHPMailer only, 0.24MB)
 composer.lock
 
 # Raw InnoDB binary table files (not portable - use SQL dump instead)
